@@ -13,7 +13,11 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.example.roomconnection.ui.theme.RoomConnectionTheme
 
 class MainActivity : ComponentActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
+    private lateinit var bookRepository: BookRepository
+
+
+
+            override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
             RoomConnectionTheme {
