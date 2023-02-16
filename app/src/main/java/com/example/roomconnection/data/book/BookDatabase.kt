@@ -1,4 +1,4 @@
-package com.example.roomconnection
+package com.example.roomconnection.data.book
 
 import android.content.Context
 import androidx.room.Database

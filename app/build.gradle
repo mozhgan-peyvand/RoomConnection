@@ -34,6 +34,9 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    testOptions {
+        unitTests.includeAndroidResources = true
+    }
     buildFeatures {
         compose true
     }
@@ -72,4 +75,11 @@ dependencies {
     // Test dependencies
     testImplementation "androidx.arch.core:core-testing:$arch_testing_version"
     testImplementation "androidx.room:room-testing:$room_version"
+
+    //for test room with flow
+    androidTestImplementation "org.jetbrains.kotlinx:kotlinx-coroutines-test:$coroutines_version"
+
+    //assertThat
+    androidTestImplementation 'com.google.truth:truth:1.1.3'
+
 }

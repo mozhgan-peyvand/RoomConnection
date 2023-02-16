@@ -1,4 +1,4 @@
-package com.example.roomconnection.ui.theme
+package com.example.roomconnection.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle
