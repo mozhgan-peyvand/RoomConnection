@@ -3,6 +3,10 @@ package com.example.roomconnection
 import android.content.Context
 import androidx.room.Room
 import androidx.test.core.app.ApplicationProvider
+import com.example.roomconnection.data.book.Book
+import com.example.roomconnection.data.book.BookDao
+import com.example.roomconnection.data.book.BookDatabase
+import com.example.roomconnection.data.book.BookRepository
 import junit.framework.Assert.*
 import kotlinx.coroutines.runBlocking
 import org.junit.After

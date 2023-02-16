@@ -1,4 +1,4 @@
-package com.example.roomconnection.ui.theme
+package com.example.roomconnection.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme
